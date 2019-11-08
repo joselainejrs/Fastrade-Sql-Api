@@ -1,0 +1,129 @@
+
+@charset "utf-8";
+:root{
+    --vinho:#941B0C;
+    --amaelo:#DAA520;
+    --peto:#1D1E18;
+    --marrom_escuro:#1D1E18;
+    --verde:#2E2422;
+    --laranja:#BC3908;
+    --branco:#FFFFFF;
+}
+.cabeca{
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	       
+}
+h1{
+	padding-bottom: 15px;
+	text-align: center;
+	color: #BC3908;
+	font-weight: bold;
+	font-family:'Dosis', sans-serif;
+}
+.barra_lateral{
+	margin:auto;
+	width:300px;
+	height:800px;
+	border: 1px solid;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;	   
+}
+.opcoes{
+	font-family:'Dosis', sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+a:hover{
+	background-color:#BC3908;
+	color: white;
+}
+
+.pri_barra{	
+	width:872px;
+	height:800px;
+	border: 1px solid;
+	border-radius: 6px;
+	margin: auto;
+	align-items: center;	
+}
+.dados_perf{
+	font-family:'Dosis', sans-serif;
+	font-size: 35px;
+	position: relative;
+	left: 260px;
+	bottom:230px;
+	padding: 2px;	
+	color: #220901;
+}
+img{
+	width: 200px;
+	padding-left: 25px;
+}
+.seg_barra{
+	position: relative;
+	bottom:180px;
+	padding: 2px;
+}
+.conj_perfil{
+    width: 850px;
+    display: flex;
+	align-items: center;
+	align-content: space-around;
+	
+}
+.text_complemento{
+	text-align: center;
+	font-family:'Dosis', sans-serif;
+	font-size: 30px;
+	color: #BC3908;
+	font-weight: bold;
+}
+.dados_compl{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+	width: 180px;	
+	margin-left: 20px;
+	margin-top: 30px;
+	background-color: darkgrey;
+	color: white;
+    padding:2px;
+	text-align: center;
+}
+.descricao_dados{
+	width: 30px;
+	margin-left:45px;
+	font-family: 'Roboto', sans-serif;	
+}
+a{
+	text-decoration: none;	
+	color: #220901;
+}
+.botao_perfil{
+	
+	margin:auto;
+	border: solid 1px ;
+	border-radius: 20px;
+	font-family:'Dosis', sans-serif;
+	color: #BC3908;
+	width: 200px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer; 
+}
+.botao_ficha{
+	display: flex;
+	align-content:space-between;
+	padding: 15px;
+	width: 800px;
+}
+
+

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root{
+    --vinho:#941B0C;
+    --amaelo:#DAA520;
+    --peto:#1D1E18;
+    --marrom_escuro:#1D1E18;
+    --verde:#2E2422;
+    --laranja:#BC3908;
+    --branco:#FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+    background-color: rgba(218, 165, 32, 0.78);
+    padding: 25px 0px;
+}
+
+
+.logo {
+    width: 250;
+    height: 50px;
+}
+
+
+.sub_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.txt_busca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* daqui para cima são alterações padroes de header e footer*/
+
+
+
+
+.tod_home{
+    background-image: linear-gradient(rgba(98,23,8,0.4),rgba(98,23,8,0.4)), url(
+	"../Imagens/andy-chilton-0JFveX0c778-unsplash (1).png");
+		 background-image: linear-gradient(rgba(98,23,8,0.4),rgba(98,23,8,0.4)), url(
+	"../Imagens/andy-chilton-0JFveX0c778-unsplash (1).png");
+		 background-image: linear-gradient(rgba(98,23,8,0.4),rgba(98,23,8,0.4)), url(
+	"../Imagens/andy-chilton-0JFveX0c778-unsplash (1).png");
+	
+    background-size:cover;
+    background-position:right;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.banner_home{
+    width: 100%;   
+}
+.frase_dicas{
+    font-family: 'Roboto', sans-serif;
+    color: var(--branco);
+    font-size: 80px;
+    padding: 8px;
+}
+.botao_dicas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: var(--branco);
+    border: solid 1px;
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+}
+.alimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border: solid 1px;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+.oferte{
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    border-bottom: 2px solid #941B0C;
+    width: 400px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px; 
+
+}
+.descriçao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.vermelho{
+    color: #941B0C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:50px;
+    padding-bottom: 250px;
+
+}
+.informativo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    border-bottom: 2px solid #941B0C;
+    width: 800px;
+    margin-bottom: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;  
+}
+.dica_informativa{
+    padding-bottom: 250px;
+}
+@media (max-width:1170px){
+	.tod_home{
+		background-image: none;	
+	}
+	.frase_dicas{
+		
+	}
+	.container_oferta{
+		width: 1169px;
+		background-color: white;
+		margin: auto;
+		
+	}
+	.oferte{
+   		text-align: center;	
+	
+	}
+	.informativo{
+		font-size: 25px;
+		text-align: center;
+		width: 400px;
+		margin-left: 25%;
+
+	}
+	.caixa_informativa {
+		margin: auto;
+		width: 600px;
+					
+	}
+
+		
+}

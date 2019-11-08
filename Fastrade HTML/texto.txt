@@ -1,0 +1,93 @@
+
+        <div class="banner_imagens">
+            <div class="conj1">
+                <div class="imag1">
+                    <img src="Imagens/Agrupar 22.png" alt="Propaganda para venda" >
+                    <p class="descricao1">
+                        PROCURA <br>
+                        métodos para diminuir a PERCA <br>
+                        de produtos parados?
+                    </p>
+                    <a href="#" class="botao_imagens">Envie sua duvida ao vendedor</a>
+                </div>
+            
+
+            <div class="imag2">
+                <img src="Imagens/imagem1.png" alt="Propaganda para compra">
+                <p class="descricao1">
+                    Negocie  com o vendedor a <br>
+                    melhor forma de receber seus produtos
+                </p>
+            </div>
+                <a href="#" class="botao_imagens">Compra</a>
+            <div class="imag3">
+                <img src="Imagens/imagem2.png" alt="Propaganda para página">
+                <p class="descricao1">
+                    CONHEÇA <br>
+                    os produtos que estão
+                    próximos de você
+                </p>
+                <a href="#" class="botao_imagens">Produtoss</a>
+            </div>
+        </div>
+        
+
+
+
+
+-----------------------------------------css------------------------------------
+.conj1{
+    display: flex; 
+    margin: auto;
+
+}
+.imag1{
+    width:574px;
+    height:347px;
+    margin-top:20px;
+}
+.descricao1{
+    font-family: 'Roboto', sans-serif;
+    color: var(--marrom_escuro);
+    font-size: 20px;
+    padding: 8px;
+    position: relative;
+    bottom: 180px;
+} 
+.imag2{
+    width:574px;
+    height:347px;
+    margin-top:20px;
+}
+.descricao2{
+    font-family: 'Roboto', sans-serif;
+    color: var(--marrom_escuro);
+    font-size: 2px;
+    padding: 8px;
+    position: relative;
+    bottom: 180px;
+}   
+.botao_imagens{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: var(--marrom_escuro);
+    border: solid 1px;
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top:20px;
+    padding: 2px;
+
+
+   
+
+
+
+
+
+
+
+
+
+
+

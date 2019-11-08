@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(218, 165, 32, 0.78);
+    padding: 25px 0px;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.sub_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.txt_busca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    margin-top: 5px;
+}
+
+.titulo_do_prato{
+    font-size: 80px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_dicas {
+    background-image: linear-gradient(rgba(218, 165, 32, 0.16), rgba(218, 165, 32, 0.16)), url(../imagens/banner.png);
+    width: 100%;
+    height: 431px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_receita {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nome {
+    position: relative;
+    background-color: #BC3908;
+    bottom: 50px;
+    top: -80px;
+    height: 60px;
+    background: linear-gradient(rgba(188, 57, 8, 0.53), rgba(188, 57, 8, 0.53));
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.frase {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.card_receitas {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+
+.foto_receita {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 22px; 
+}
+
+p{
+    line-height: 2.0;
+    font-size: 22px;
+}
+
+.img_receita {
+    width: 460px;
+    margin-top: 150px;
+}
+
+.texto_receita {
+    margin-top: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.carrossel {
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 100px 0px;
+    align-items: center;
+    margin: auto;
+}
+
+.carrossel_img{
+    width: 250px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 320px;
+    }
+    .container_pai {
+        width: 320px;
+    }
+    .texto_receita {
+        width: 320px;
+        margin: auto;
+    }   
+    .card_receitas {
+        width: 320px;
+    }
+    .carrossel img {
+        margin-top: 20px;
+    }
+}

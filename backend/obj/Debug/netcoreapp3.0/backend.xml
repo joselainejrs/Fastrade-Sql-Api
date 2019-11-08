@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>backend</name>
+    </assembly>
+    <members>
+        <member name="M:backend.Controllers.CatProdutoController.Get">
+            <summary>
+            Aqui é todas Categorias dos produtos
+            </summary>
+            <returns>Lista de categorias de produtos</returns>
+        </member>
+        <member name="M:backend.Controllers.CatProdutoController.Get(System.Int32)">
+            <summary>
+            Aqui Pegamos apenas Uma Categoria de produto
+            </summary>
+            <param name="id"></param>
+            <returns>Unico Id de categoria produtos</returns>
+        </member>
+        <member name="M:backend.Controllers.CatProdutoController.Post(backend.Domains.CatProduto)">
+            <summary>
+            Aqui enviamos mais categorias de produtos
+            </summary>
+            <param name="catproduto"></param>
+            <returns>Envia uma categoria produto</returns>
+        </member>
+        <member name="M:backend.Controllers.CatProdutoController.Put(System.Int32,backend.Domains.CatProduto)">
+            <summary>
+            Aqui alteramos dados das categorias de produtos
+            </summary>
+            <param name="id"></param>
+            <param name="catproduto"></param>
+            <returns>Alteramento de categoria produto</returns>
+        </member>
+        <member name="M:backend.Controllers.CatProdutoController.Delete(System.Int32)">
+            <summary>
+            Aqui deletamos uma categoria de produto
+            </summary>
+            <param name="id"></param>
+            <returns>Deleta uma categoria</returns>
+        </member>
+        <member name="M:backend.Controllers.OfertaController.Get">
+            <summary>
+            Aqui são todas as ofertas
+            </summary>
+            <returns>Lista de Ofertas</returns>
+        </member>
+        <member name="M:backend.Controllers.OfertaController.Get(System.Int32)">
+            <summary>
+            Mostramos uma oferta
+            </summary>
+            <param name="id"></param>
+            <returns>Mostramos unico ID de oferta</returns>
+        </member>
+        <member name="M:backend.Controllers.OfertaController.Post(backend.Domains.Oferta)">
+            <summary>
+            Enviamos mais dados de oferta
+            </summary>
+            <param name="oferta"></param>
+            <returns>Envia uma oferta</returns>
+        </member>
+        <member name="M:backend.Controllers.OfertaController.Put(System.Int32,backend.Domains.Oferta)">
+            <summary>
+            Alteramos os dados de uma oferta
+            </summary>
+            <param name="id"></param>
+            <param name="oferta"></param>
+            <returns>Alteração de dados de uma oferta</returns>
+        </member>
+        <member name="M:backend.Controllers.OfertaController.Delete(System.Int32)">
+            <summary>
+            Excluimos uma oferta
+            </summary>
+            <param name="id"></param>
+            <returns>Excluir uma oferta</returns>
+        </member>
+        <member name="M:backend.Controllers.PedidoController.Get">
+            <summary>
+            Aqui são todos os pedidos
+            </summary>
+            <returns>Lista de pedidos</returns>
+        </member>
+        <member name="M:backend.Controllers.PedidoController.Get(System.Int32)">
+            <summary>
+            Pegamos um pedido
+            </summary>
+            <param name="id"></param>
+            <returns>Unico ID de pedido</returns>
+        </member>
+        <member name="M:backend.Controllers.PedidoController.Post(backend.Domains.Pedido)">
+            <summary>
+            Enviamos os dados de um pedido
+            </summary>
+            <param name="pedido"></param>
+            <returns>Envia dados de pedido</returns>
+        </member>
+        <member name="M:backend.Controllers.PedidoController.Put(System.Int32,backend.Domains.Pedido)">
+            <summary>
+            Alteramos dados do pedido
+            </summary>
+            <param name="id"></param>
+            <param name="pedido"></param>
+            <returns>Alteração de pedidos</returns>
+        </member>
+        <member name="M:backend.Controllers.PedidoController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de pedidos
+            </summary>
+            <param name="id"></param>
+            <returns>Excluir pedidos</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoController.Get">
+            <summary>
+            Aqui são todos os produtos
+            </summary>
+            <returns>Lista de Produtos</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoController.Get(System.Int32)">
+            <summary>
+            Pegamos um dado de produto
+            </summary>
+            <param name="id"></param>
+            <returns>Pegamos um unico ID de produto</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoController.Post(backend.Domains.Produto)">
+            <summary>
+            Enviamos os dados de produto
+            </summary>
+            <param name="produto"></param>
+            <returns>Envia dados de produto</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoController.Put(System.Int32,backend.Domains.Produto)">
+            <summary>
+            Alteramos os dados de produto
+            </summary>
+            <param name="id"></param>
+            <param name="produto"></param>
+            <returns>Alteração de produto</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de um produto
+            </summary>
+            <param name="id"></param>
+            <returns>Exclui produto</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoReceitaController.Get">
+            <summary>
+            Aqui são todos os produtos de uma receita
+            </summary>
+            <returns>Lista de produtos de uma receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoReceitaController.Get(System.Int32)">
+            <summary>
+            Mostramos apenas uma ID de um produto receita
+            </summary>
+            <param name="id"></param>
+            <returns>Unico ID de um produto receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoReceitaController.Post(backend.Domains.ProdutoReceita)">
+            <summary>
+            Enviamos os dados de um produto receita
+            </summary>
+            <param name="produtoreceita"></param>
+            <returns>Envia dados de um produto receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoReceitaController.Put(System.Int32,backend.Domains.ProdutoReceita)">
+            <summary>
+            Alteramos dados de um produto receita
+            </summary>
+            <param name="id"></param>
+            <param name="produtoreceita"></param>
+            <returns>Alteração de dados produto receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ProdutoReceitaController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de uma produto receita
+            </summary>
+            <param name="id"></param>
+            <returns>Exclui dado de produto receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ReceitaController.Get">
+            <summary>
+            Aqui são todas as receitas
+            </summary>
+            <returns>Lista de receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ReceitaController.Get(System.Int32)">
+            <summary>
+            Mostramos uma unica receita
+            </summary>
+            <param name="id"></param>
+            <returns>Unico ID de uma receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ReceitaController.Post(backend.Domains.Receita)">
+            <summary>
+            Enviamos dados de uma receita
+            </summary>  
+            <param name="receita"></param>
+            <returns>Envia dados de uma receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ReceitaController.Put(System.Int32,backend.Domains.Receita)">
+            <summary>
+            Alteramos dados de uma receita
+            </summary>
+            <param name="id"></param>
+            <param name="receita"></param>
+            <returns>Alteração de dados de uma receita</returns>
+        </member>
+        <member name="M:backend.Controllers.ReceitaController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de uma receita
+            </summary>
+            <param name="id"></param>
+            <returns>Exclui dados de uma receita</returns>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Get">
+            <summary>
+            Aqui são todos os usuarios
+            </summary>
+            <returns>Lista de usuarios</returns>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Get(System.Int32)">
+            <summary>
+            Mostramos os dados de um usuario
+            </summary>
+            <param name="id"></param>
+            <returns>Unico ID de um usuario</returns>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Post(backend.Domains.Usuario)">
+            <summary>
+            Enviamos dados de um usuario
+            </summary>
+            <param name="usuario"></param>
+            <returns>Envia dados de um usuario</returns>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Put(System.Int32,backend.Domains.Usuario)">
+            <summary>
+            Alteramos dados de um usuario
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns>Envia dados de um usuario</returns>
+        </member>
+        <member name="M:backend.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de um usuario
+            </summary>
+            <param name="id"></param>
+            <returns>Excluir dados de um usuario</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.EnderecoController.Get">
+            <summary>
+            Aqui são Todos endereços
+            </summary>
+            <returns>Lista de endeço</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.EnderecoController.Get(System.Int32)">
+            <summary>
+            Aqui Pegamos apenas Um Endereço
+            </summary>
+            <param name="id"></param>
+            <returns>Pegamos apenas um endereço</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.EnderecoController.Post(backend.Domains.Endereco)">
+            <summary>
+            Enviamos dados do endereço
+            </summary>
+            <param name="endereco"></param>
+            <returns>Enviamos os dados do endereço</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.EnderecoController.Put(System.Int32,backend.Domains.Endereco)">
+            <summary>
+            Alteramos os dados do endereço
+            </summary>
+            <param name="id"></param>
+            <param name="endereco"></param>
+            <returns>Alteramos os dados do endereço</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.EnderecoController.Delete(System.Int32)">
+            <summary>
+            Deletamos os dados do endereço
+            </summary>
+            <param name="id"></param>
+            <returns>Deletamos os dados do endereço</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.TipoUsuarioController.Get">
+            <summary>
+            Aqui são todos os Tipos de Usuario
+            </summary>
+            <returns>Lista de tipo de usuario</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.TipoUsuarioController.Get(System.Int32)">
+            <summary>
+            Pegamos um tipo de usuario
+            </summary>
+            <param name="id"></param>
+            <returns>Unico ID de um tipo de usuario</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.TipoUsuarioController.Post(backend.Domains.TipoUsuario)">
+            <summary>
+            Envia dados de tipo de usuario
+            </summary>
+            <param name="tipousuario"></param>
+            <returns>Envia dados de tipo de usuario</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.TipoUsuarioController.Put(System.Int32,backend.Domains.TipoUsuario)">
+            <summary>
+            Alteramos dados de tipo de usuario
+            </summary>
+            <param name="id"></param>
+            <param name="tipousuario"></param>
+            <returns>Alteração de dados de tipo de usuario</returns>
+        </member>
+        <member name="M:backend_fastread.Controllers.TipoUsuarioController.Delete(System.Int32)">
+            <summary>
+            Excluimos dados de tipo de usuario
+            </summary>
+            <param name="id"></param>
+            <returns>Excluir dados de tipo de usuario</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="39" viewBox="0 0 111 39">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-1109 -899)">
+    <g id="Retângulo_4" data-name="Retângulo 4" transform="translate(1109 899)" fill="#fff" stroke="#bc3908" stroke-width="1">
+      <rect width="39" height="39" stroke="none"/>
+      <rect x="0.5" y="0.5" width="38" height="38" fill="none"/>
+    </g>
+    <g id="Caminho_18" data-name="Caminho 18" transform="translate(1147 899)" fill="#bc3908">
+      <path d="M 72.5 38.5 L 0.5 38.5 L 0.5 0.5 L 72.5 0.5 L 72.5 38.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 38 L 72 38 L 72 1 L 1 1 M 0 0 L 73 0 L 73 39 L 0 39 L 0 0 Z" stroke="none" fill="#bc3908"/>
+    </g>
+    <text id="Reservar" transform="translate(1155 925)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Reservar</tspan></text>
+    <rect id="Retângulo_6" data-name="Retângulo 6" width="19" height="9" transform="translate(1120 915)" fill="#d1d4d1" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_1" data-name="Caminho 1" d="M27.3,26.535H8V16.5H27.3ZM8.772,25.763H26.526V17.272H8.772Z" transform="translate(1112.088 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M5.316,8.272H3.386a.386.386,0,0,1,0-.772h1.93a.386.386,0,0,1,0,.772Z" transform="translate(1115.158 903.202)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_3" data-name="Caminho 3" d="M8.386,11.746A.386.386,0,0,1,8,11.36V7.886a.386.386,0,1,1,.772,0V11.36A.386.386,0,0,1,8.386,11.746Z" transform="translate(1112.088 903.202)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_4" data-name="Caminho 4" d="M8.386,43.974A.386.386,0,0,1,8,43.588v-2.7a.386.386,0,0,1,.772,0v2.7A.386.386,0,0,1,8.386,43.974Z" transform="translate(1112.088 882.939)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="1.5" cy="1.5" r="1.5" transform="translate(1123 927)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="1.5" cy="1.5" r="1.5" transform="translate(1132 927)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_5" data-name="Caminho 5" d="M24.982,48.272H8.386a.386.386,0,1,1,0-.772h16.6a.386.386,0,1,1,0,.772Z" transform="translate(1112.088 878.64)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M26.912,25.272H8.386a.386.386,0,0,1,0-.772H26.912a.386.386,0,0,1,0,.772Z" transform="translate(1112.088 892.763)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_7" data-name="Caminho 7" d="M26.912,33.272H8.386a.386.386,0,0,1,0-.772H26.912a.386.386,0,0,1,0,.772Z" transform="translate(1112.088 887.851)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_8" data-name="Caminho 8" d="M16.386,26.535A.386.386,0,0,1,16,26.149V16.886a.386.386,0,1,1,.772,0v9.263A.386.386,0,0,1,16.386,26.535Z" transform="translate(1107.175 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_9" data-name="Caminho 9" d="M24.386,26.535A.386.386,0,0,1,24,26.149V16.886a.386.386,0,1,1,.772,0v9.263A.386.386,0,0,1,24.386,26.535Z" transform="translate(1102.263 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_10" data-name="Caminho 10" d="M32.386,26.535A.386.386,0,0,1,32,26.149V16.886a.386.386,0,1,1,.772,0v9.263A.386.386,0,0,1,32.386,26.535Z" transform="translate(1097.351 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_11" data-name="Caminho 11" d="M40.386,26.535A.386.386,0,0,1,40,26.149V16.886a.386.386,0,1,1,.772,0v9.263A.386.386,0,0,1,40.386,26.535Z" transform="translate(1092.439 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <path id="Caminho_12" data-name="Caminho 12" d="M48.386,26.535A.386.386,0,0,1,48,26.149V16.886a.386.386,0,1,1,.772,0v9.263A.386.386,0,0,1,48.386,26.535Z" transform="translate(1087.526 897.675)" fill="#556080" stroke="#707070" stroke-width="1"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="1" cy="1" r="1" transform="translate(1117 910)" fill="#d8625e" stroke="#707070" stroke-width="1"/>
+    <rect id="Retângulo_7" data-name="Retângulo 7" width="6" height="3" transform="translate(1122 911)" fill="#f0c419" stroke="#707070" stroke-width="1"/>
+    <rect id="Retângulo_8" data-name="Retângulo 8" width="6" height="6" transform="translate(1128 908)" fill="#8697cb" stroke="#707070" stroke-width="1"/>
+    <rect id="Retângulo_9" data-name="Retângulo 9" width="4" height="5" transform="translate(1134 909)" fill="#fb7b76" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

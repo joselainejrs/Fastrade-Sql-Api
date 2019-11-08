@@ -1,0 +1,1230 @@
+        @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(218, 165, 32, 0.78);
+            padding: 25px 0px;
+            height: 130px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .sub_menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sub_menu a {
+            height: 30px;
+        }
+
+        .logo {
+            width: 250px;
+            height: 50px;
+        }
+        .localicate{
+            width: 100px;
+            margin-right: 50px;
+        }
+
+        nav {
+            padding-top: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            padding: 10px;
+            height: 50px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-family: 'Dosis', sans-serif;
+        }
+        nav a:hover{
+            background-color: #BC3908;
+            opacity: 0.5;
+            color: white;
+            padding: 5px;
+            border-radius: 4px;
+            
+        }
+
+        nav li {
+            list-style: none;
+            font-size: 18px;
+        }
+
+        .pesquisa {
+            background-color: white;
+            border-radius: 10px;
+            width: 40%;
+            display: flex;
+            padding-right: 10px;
+            justify-content: space-between;
+        }
+
+        .txt_busca {
+            float: left;
+            background-color: transparent;
+            padding-left: 5px;
+            font-size: 18px;
+            border: none;
+            height: 32px;
+            width: 400px;
+            /* width: 260px; */
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .btn_busca {
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+        }
+
+/* daqui para cima são alterações padroes de header e footer*/
+
+
+
+.container_oferta{
+	width: 1200px;
+  	margin: auto;
+}
+.tod_home{
+    background-image: url(../imagens/fundo.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;   
+}
+.banner_home{
+    width: 100%;   
+}
+.frase_dicas{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+    padding: 8px;
+}
+.botao_dicas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+    border: solid 1px;
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top:20px;
+    padding: 2px;
+    align-items: center;
+}
+.img_frase{
+    align-items: center;
+}
+.oferte{
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 5px solid #BC3908;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px; 
+}
+.conteudo{
+    display: flex;
+	align-content: center;
+    flex-wrap: wrap;
+    margin-top:50px;
+	margin-bottom: 50px;
+}
+.img_home{
+    margin-top: 50px;   
+}
+.alimentos{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 220px;
+    margin-top: 10px;
+	background-color: white;
+}
+.alimentos:hover{
+    border: 3px solid;
+    border-bottom-color: #BC3908;
+    border-right-color: #BC3908;  
+    border-left-color: #f2f2f2;
+    border-top-color: #f2f2f2;
+}
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	text-align: center;
+}
+.vermelho{
+    color: #941B0C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.tod_informativo{
+    display: flex;
+    width: 1200px;    
+    margin-bottom: 100px;
+}
+.dica_informativa{
+    margin-bottom: 10px;
+    height: 400px;
+    width: 550px;     
+}
+.dica_informativa:hover{
+    border: 3px solid;
+    border-bottom-color: #DAA520;
+    border-right-color: #DAA520;  
+    border-left-color: #f2f2f2;
+    border-top-color: #f2f2f2;
+}
+.informativo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    border-bottom: 3px solid #DAA520;
+    width: 545px; 
+}
+.dica_informativa2{
+    margin-bottom: 10px;
+    margin-left: 60px;
+    height: 400px;
+    width: 550px;     
+}
+.informativo2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    border-bottom: 3px solid #941B0C ;
+    width: 545px; 
+}
+.dica_informativa2:hover{
+    border: 3px solid;
+    border-bottom-color: #941B0C;
+    border-right-color: #941B0C;  
+    border-left-color: #f2f2f2;
+    border-top-color: #f2f2f2;
+}
+.global_informativa{
+    margin-top: 15px;   
+}
+.caixa_informativa {
+    display: flex;  
+    width: 550px;
+}
+.img_informativa{  
+    width: 80px;   
+    padding-left: 70px;    
+}
+.frase_informativa{
+    font-size: 20px;  
+    margin-left: 20px;
+    padding: 20px; 
+    font-family: 'Roboto', sans-serif;   
+}
+.destaque{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.logo_destaque{
+    position: relative; 
+    left: 350px;
+    bottom:200px; 
+    width: 550px;      
+}
+.frase_destaque{
+    position: relative; 
+    left: 220px;
+    bottom:200px; 
+    font-size: 60px;
+    font-family: 'Dosis', sans-serif;
+    color: #FFFFFF;
+}
+.espaco_comentario{
+    width: 1200px; 
+    margin-bottom: 100px;   
+}
+.titulo_comentario{
+    margin-top: 100px;      
+}
+.frase_comentario{
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #BC3908;
+    width: 800px;
+    margin: auto; 
+    margin-bottom: 50px;
+}
+.tod_comentario{
+    display: flex;  
+}
+.img_comentario{
+    margin-top: 50px;
+}
+.comentario{
+    font-family: 'Roboto', sans-serif;
+    color: #9B9595;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.adm{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;    
+}
+.comenta{
+    padding-top: 5px;
+}
+
+
+/* tablete*/
+@media (max-width:1169px){
+	.banner_home{
+   		 width: 1169px; 
+		height: 300px;
+			
+	}
+	.container_oferta{
+		width: 1169px;
+		background-color: white;
+		
+    }
+    .frase_dicas{
+		font-size: 60px;
+    }
+    .img_frase{
+        width: 600px;
+        text-align: center;
+    }
+	.oferte{
+   		margin-left: 25%;
+			
+	}
+	.conteudo{
+		width: 1000px;
+		align-content: center;
+		display: flex;
+	}
+	.informativo{
+		font-size: 50px;
+		width: 800px;
+		margin-left: 10%;
+	}	
+	.alimentos{
+		width: 250px;
+	}	
+	
+	
+    
+}
+
+
+
+
+@media (max-width: 767px){
+	.banner_home{
+   		width: 500px; 
+		height: 250px;
+	}
+	.frase_dicas{
+		font-size: 40px;
+    }
+    .img_frase{
+        width: 300px;
+    }
+    .container_oferta{
+		width: 767px;
+		background-color: white;
+		margin: ;
+	}
+	.oferte{
+   		margin-left: 10%;
+		font-size: 30px;
+		width: 300px;
+	}
+	.conteudo{
+		width: 550px;
+			
+	}
+	.informativo{
+		font-size: 25px;
+		width: 450px;
+		margin-left: 20px;
+		
+	}	
+	
+	.alimentos{
+		width: 200px;
+			
+	}
+	.descricao{
+		font-size: 15px;
+		width: 100px;
+		
+	}
+	.vermelho{
+		font-size: 15px;
+		width: 100px;
+	}
+	.img_home{
+		width: 100px;
+		height: 150px;
+		margin:auto;
+		
+	}
+	.espaco_comentario{
+		display: flex;
+		flex-direction: column;
+	}
+	.img_comentario{
+		left: 12px;
+		position: relative;
+	}
+	.img_comentario2{
+		top: -200px;
+		position: relative;
+		left: 8px;
+}
+	.img_caixa{
+		top:-390px;
+		position: relative;
+		
+	}
+}
+
+
+
+
+
+@media (max-width: 767px){
+	.banner_home{
+   		width: 500px; 
+		height: 250px;
+	}
+	.frase_dicas{
+		font-size: 40px;
+    }
+    .img_frase{
+        width: 300px;
+    }
+    .container_oferta{
+		width: 767px;
+		background-color: white;
+		margin: ;
+	}
+	.oferte{
+   		margin-left: 10%;
+		font-size: 30px;
+		width: 300px;
+	}
+	.conteudo{
+		width: 550px;
+			
+	}
+	.informativo{
+		font-size: 25px;
+		width: 450px;
+		margin-left: 20px;
+		
+	}	
+	
+	.alimentos{
+		width: 200px;
+			
+	}
+	.descricao{
+		font-size: 15px;
+		width: 100px;
+		
+	}
+	.vermelho{
+		font-size: 15px;
+		width: 100px;
+	}
+	.img_home{
+		width: 100px;
+		height: 150px;
+		margin:auto;
+		
+	}
+	.espaco_comentario{
+		display: flex;
+		flex-direction: column;
+	}
+	.img_comentario{
+		left: 12px;
+		position: relative;
+	}
+	.img_comentario2{
+		top: -200px;
+		position: relative;
+		left: 8px;
+}
+	.img_caixa{
+		top:-390px;
+		position: relative;
+		
+	}
+}
+
+
+/*Quem somos*/
+.deitadas {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.direito {
+    width: 50%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.esquerdo {
+    width: 50%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.persona {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin:auto;
+    
+}
+
+.rosto {
+    text-align: center;
+    width: 160px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.rosto img{
+    width: 144px;
+    height: 144px;
+}
+.rosto p {
+    text-align: center;
+}
+.larg {
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foto_grupo {
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-bottom: 35px;
+    background-color: #f5f5f5;
+}
+
+/*Media queres Quem somos tablet*/
+
+/*Quem Somos*/
+
+@media(max-width:1169px) {
+    
+    nav {
+        width: 768px;
+    }
+    .container {
+        width: 768px;
+    }
+    .sub_menu {
+        width: 768px;
+    }
+    
+    .persona {
+        width: 600px;   
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    
+    .foto_grupo img {
+        width: 100%;
+    }
+}
+
+/*Smart*/
+
+@media(max-width:768px) {
+    .container{
+        width: 100% ;
+        display: flex;
+        margin: auto;
+    }
+    .sub_menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .iuser {
+        display: none;
+    }
+    .pesquisa {
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .prot{
+        display: block
+    }
+    .foto_grupo, .foto_grupo img{
+        width: 100%;
+    }
+    .todo{
+        width: 100%;
+    }
+    .persona{
+        width: 320px;
+    }
+    .deitadas img{
+        display: none;
+        
+    }
+    .Logo_footer{
+        width: 120px;
+    }
+    .Mapa_footer{
+        width: 80px;
+    }
+    .direito, .esquerdo{
+        width: 320px;
+        margin: auto;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .footer{
+        width:100%;
+    }
+    h1{
+        width: 300px;
+    }
+}
+/* Carrinho */
+.Area_items{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+}
+.items_perfil{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    
+    
+}
+.alinhar_texto{
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;  
+    font-size: 20px;  
+    font-family: 'Roboto', sans-serif;
+
+}
+.items_perfil1{
+    display: flex;
+}
+.items_perfil1 img{
+    width: 50px;
+    height: 50px;
+}
+    
+.items_perfil1 a{
+    margin: auto;
+}
+.titulo_carrinho{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+}
+.fechar_carrinho{
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: flex
+}
+.carrinho_ajuste{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+
+    
+   
+}
+.carrinho_ajuste p{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    display: flex;
+    align-items: center;
+}
+.borda_carrinho{
+    width: 1200px;
+    height: 303px;
+    border: #DAA520 2px solid;
+    border-radius: 15px;
+}
+.conteudo_dentro_img{
+    height: 305px;
+    display: flex;
+    align-items: center; 
+    margin: auto;   
+
+}
+.conteudo_dentro_img img{
+    
+    padding-left: 20px;
+}
+.txt_carr{
+    margin: 15px;
+    font-size: 15px;
+    }
+.protecao_car{
+    position: relative;
+    left: -5px;
+    font-family: 'Roboto', sans-serif;
+
+}   
+.contai_carr{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.txt_contc{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;  
+}
+.txt_c{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.Quantidade_carr{
+    width: 80px;
+}
+.container_carrin{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.txt_fim_carrin{
+    font-size: 40px;
+}
+.Btn_fim{
+    width: 150px;
+    
+}
+/*  Editar Perfil */
+
+ 
+.cabeca{
+
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+	display: flex;
+	align-content: center;
+    align-items: center;
+    margin-top:80px;
+	       
+}
+.h1_perfil_usu{
+	padding-bottom: 15px;
+	text-align: center;
+	color: #BC3908;
+	font-weight: bold;
+    font-family:'Dosis', sans-serif;
+    padding-bottom: 40px;
+}
+.barra_lateral{
+	margin:auto;
+	width:300px;
+	height:800px;
+	border: 1px solid;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;	   
+}
+.opcoes{
+    font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+.botao_perfil a:hover{
+	background-color:#BC3908;
+    color: white;
+   
+
+}
+.barra_lateral a:hover{
+    background-color:#BC3908;
+	color: white;
+}
+
+.pri_barra{	
+	width:872px;
+	height:800px;
+	border: 1px solid;
+	border-radius: 6px;
+	margin: auto;
+	align-items: center;	
+}
+.dados_perf{
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+	position: relative;
+	left: 260px;
+	bottom:230px;
+	padding: 2px;	
+    color: #220901;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+.Usu_foto_perfil{
+	width: 200px;
+	padding-left: 25px;
+}
+
+.seg_barra{
+	position: relative;
+	bottom:180px;
+	padding: 2px;
+}
+.conj_perfil{
+    width: 850px;
+    display: flex;
+	align-items: center;
+    align-content: space-around;
+    padding-top:15px;
+    padding-bottom: 20px;
+	
+}
+.text_complemento{
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: #BC3908;
+	font-weight: bold;
+}
+.dados_compl{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+	width: 250px;	
+	margin-left: 20px;
+	margin-top: 30px;
+	background-color: darkgrey;
+	color: white;
+    padding:2px;
+	text-align: center;
+}
+.descricao_dados{
+	width: 30px;
+	margin-left:45px;
+	font-family: 'Roboto', sans-serif;	
+}
+a{
+	text-decoration: none;	
+	color: #220901;
+}
+.botao_perfil{
+	
+	margin:auto;
+	border: solid 1px ;
+	border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+	color: #BC3908;
+	width: 200px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer; 
+}
+.botao_ficha{
+	display: flex;
+	align-content:space-between;
+    padding-top: 40px;
+    padding-bottom: 15px;
+	width: 800px;
+}
+
+
+
+/* Produtos*/
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner p {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 53px;
+    position: relative;
+    left: 790px;
+    bottom: 120px;
+    color: white;
+}
+
+.banner{
+    height: 300px;
+}
+
+.banner_produtos {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 298px;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.container_lista {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.busca {
+    font-size: 25px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ordenar {
+    border-bottom: 4px;
+    color: black;
+    width: 200px;
+}
+
+select {
+    height: 40px;
+}
+
+.container_cards {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 3.0;
+    margin-top: 50px;
+    box-shadow: 5px 6px 3px -3px rgba(205, 90, 76, 1);
+}
+
+.card:hover {
+    background-color: rgba(165, 162, 162, 0.808);
+}
+
+.card img {
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.btn_1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #BC3908;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 40px;
+    width: 200px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.produtor {
+    color: #DAA520;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.card2 {
+    margin-top: 100px;
+}
+
+.vermais {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .banner {
+        width: 100%;
+    }
+    .container_lista {
+        width: 100vw;
+    }
+    .container_cards {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 270px;
+        margin: 50px;
+    }
+    .card2 {
+        display: none;
+    }
+    .img {
+        display: none;
+    }
+    .container_lista {
+        width: 90vw;
+    }
+    .banner p { 
+        display: none;
+    }
+    .busca {
+        margin: auto;
+    }
+    /* Dicas e Receitas */
+}
+.banner_dicas {
+    background-image: linear-gradient(rgba(218, 165, 32, 0.16), rgba(218, 165, 32, 0.16)), url(../imagens/banner.png);
+    width: 100%;
+    height: 298px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 116px;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_pai {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+.nome {
+    position: relative;
+    background-color: #BC3908;
+    bottom: 50px;
+    top: -80px;
+    height: 60px;
+    background: linear-gradient(rgba(188, 57, 8, 0.53), rgba(188, 57, 8, 0.53));
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.frase {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+
+}
+
+.card_receitas {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+}
+.img_receita{
+    padding-top: 60px;  
+    width: 470px;
+}
+
+.carrossel img {
+
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carrossel {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    align-items: center;
+    width: 100%;
+}
+.embarque{
+    width: 1200px;
+    margin: auto;
+}
+
+.foto_receita {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.nome_prato {
+    position: relative;
+    background-color: #BC3908;
+    bottom: 50px;
+    top: -80px;
+    height: 70px;
+    background: linear-gradient(rgba(188, 57, 8, 0.53), rgba(188, 57, 8, 0.53));
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 25px;
+}
+
+.textop{
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 320px;
+    }
+    .container_pai {
+        width: 320px;
+    }
+}
+
+.texto_receita {
+    width: 320px;
+    margin: auto;
+}
+
+/*.card_receitas {
+
+}
+
+.carrossel img {
+    margin-top: 20px;
+}

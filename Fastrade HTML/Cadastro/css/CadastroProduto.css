@@ -1,0 +1,73 @@
+.styled-container {
+    width: 1000px;
+
+    background-color: white;
+    padding: 80px 40px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+  display: flex;
+  justify-content: center;
+    }
+
+.styled-container input{
+    height: 40px;
+    border-style: 1px outset #707070;
+
+}
+
+
+.form-group{
+    display: grid;
+    grid-template-columns: auto 3%;
+    grid-template-rows: 50% 50%;
+}
+
+.form-group label{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.form-group .input-button{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.card {
+    width: 1000px;
+
+    background-color: white;
+    padding: 80px 40px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+  
+}
+.botao{
+    width: 50%;
+  
+    }
+
+
+
+
+ label{
+     width: 50%;
+     margin-bottom: 10px;
+ }
+ .card input {
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    border: solid 1px black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+
+ }
+

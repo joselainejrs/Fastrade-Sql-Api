@@ -1,0 +1,115 @@
+
+@charset "utf-8";
+:root{
+    --vinho:#941B0C;
+    --amaelo:#DAA520;
+    --peto:#1D1E18;
+    --marrom_escuro:#1D1E18;
+    --verde:#2E2422;
+    --laranja:#BC3908;
+    --branco:#FFFFFF;
+}
+*{
+	margin: 0%;
+}
+.cabeca{
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+	display: flex;
+	align-content: center;
+
+	       
+}
+h1{
+	padding-bottom: 45px;
+	padding-top: 30px;
+	text-align: center;
+	color: #BC3908;
+	font-weight: bold;
+	font-family:'Dosis', sans-serif;
+}
+.barra_lateral{
+	margin:auto;
+	width:300px;
+	height:500px;
+	border: 1px solid;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;	   
+}
+.opcoes{
+	font-family:'Dosis', sans-serif;
+	font-size: 30px;
+	padding: 15px;
+}
+a:hover{
+	background-color:#BC3908;
+	color: white;
+}
+
+.pri_barra{	
+	width:872px;
+	height:500px;
+	border: 1px solid;
+	border-radius: 6px;	
+	box-sizing: border-box
+}
+.retangular{
+	position: absolute;
+}
+.img_inserir{
+	margin-left: 10px;
+	cursor: pointer; 
+}
+.conjunto{
+	border: 1px outset;
+	padding: 10px;
+	height: 55px;
+	color: #BC3908;
+	width: 830px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	
+	
+}
+.p_descricao{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 70px;
+	bottom: 45px;
+	font-weight: bold;
+}
+.p_descricaoseg{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 70px;
+	bottom: 45px;
+}
+.detalhes{
+	position: relative;
+	left: 750px;
+	bottom: 110px;
+	font-size: 40px;
+}
+.lixeira{
+	margin-left: 800px;
+	position: relative;
+	bottom: 135px;
+	cursor: pointer; 
+}
+a{
+	text-decoration: none;	
+	color: #220901;
+}
+.botao_ficha{
+	display: flex;
+	align-content:space-between;
+	padding: 15px;
+	width: 800px;
+}
+
+

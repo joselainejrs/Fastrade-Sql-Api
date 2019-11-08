@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    width: 1000px;
+
+    background-color: white;
+    padding: 80px 40px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.tipodeusuario label    {
+    display: flex;
+    align-items: center;
+
+}
+.tipodeusuario{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-around;
+}
+.direito{
+    width: 50%;
+    align-items: center;
+}
+.esquerdo{
+    width: 50%;
+}
+
+#form_cadastro div span{
+    width: 120px;
+    display: block;
+}
+
+#form_cadastro div{
+    margin: 10px;
+}
+.botao{
+    width: 50%;
+    }
+
+
+
+ button {
+     width: 50%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    background-color:#BC3908;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+ }
+ label{
+     width: 50%;
+     margin-bottom: 10px;
+ }
+ .card input {
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    border: solid 1px black;
+    padding-left: 10px;
+ }
+ h3{
+    font-family: 'Dosis', sans-serif;
+ 
+    
+ }
+ .telefone{
+     display: flex;
+    
+ }
+
+
+ .formulario_cadastro {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.formulario_cadastro div {
+    display: flex;
+    flex-direction: column;
+}
+.card input{
+    height: 40px;
+    border-style: 1px outset #707070;
+
+}
+.radio{
+    height: 20px !important;
+}
+
+/*Medias Queries*/
+
+@media(max-width:1169px) {
+  
+    .container {
+        width: 720px;
+    }
+    .card{
+        width: 720px;
+ 
+}
+}
+/*Smart*/
+
+@media(max-width:768px) {   
+  
+    .container {
+        width: 350px;
+        
+
+    }
+    .card{
+        width: 350px;
+
+    }
+        .formulario_cadastro{
+            display:flex;
+            flex-direction: column;
+    
+    }
+
+
+    }

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(218, 165, 32, 0.78);
+    padding: 25px 0px;
+
+}
+.logo {
+    width: 250;
+    height: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.sub_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;  
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.txt_busca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Mapa_footer{
+    width: 113px;
+}
+.Logo_footer{
+    width: 205px;
+}
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.prot {
+    display: none;
+}
+
+/* daqui para cima são alterações padroes de header e footer*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+}
+
+
+.deitadas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.direito {
+    width: 50%;
+    text-align: center;
+}
+
+.esquerdo {
+    width: 50%;
+    text-align: center;
+}
+
+.persona {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin:auto;
+    
+}
+
+.rosto {
+    text-align: center;
+    width: 160px;
+    font-size: 12px;
+}
+.rosto img{
+    width: 144px;
+    height: 144px;
+}
+.rosto p {
+    text-align: center;
+}
+.larg {
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foto_grupo {
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-bottom: 35px;
+    background-color: #f5f5f5;
+}
+
+/*Media queres Quem somos tablet*/
+
+/*Quem Somos*/
+
+@media(max-width:1169px) {
+    
+    nav {
+        width: 768px;
+    }
+    .container {
+        width: 768px;
+    }
+    .sub_menu {
+        width: 768px;
+    }
+    
+    .persona {
+        width: 600px;   
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    
+    .foto_grupo img {
+        width: 100%;
+    }
+}
+
+/*Smart*/
+
+@media(max-width:768px) {
+    .container{
+        width: 100% ;
+        display: flex;
+        margin: auto;
+    }
+    .sub_menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .iuser {
+        display: none;
+    }
+    .pesquisa {
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .prot{
+        display: block
+    }
+    .foto_grupo, .foto_grupo img{
+        width: 100%;
+    }
+    .todo{
+        width: 100%;
+    }
+    .persona{
+        width: 320px;
+    }
+    .deitadas img{
+        display: none;
+        
+    }
+    .Logo_footer{
+        width: 120px;
+    }
+    .Mapa_footer{
+        width: 80px;
+    }
+    .direito, .esquerdo{
+        width: 320px;
+        margin: auto;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .footer{
+        width:100%;
+    }
+    h1{
+        width: 300px;
+    }
+}

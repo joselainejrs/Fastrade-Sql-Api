@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+    --vinho: #941B0C;
+    --amaelo: #DAA520;
+    --peto: #1D1E18;
+    --marrom_escuro: #1D1E18;
+    --verde: #2E2422;
+    --laranja: #BC3908;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(218, 165, 32, 0.78);
+    padding: 25px 0px;
+}
+
+.logo {
+    width: 250;
+    height: 50px;
+}
+
+.sub_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.txt_busca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Mapa_footer {
+    width: 113px;
+}
+
+.Logo_footer {
+    width: 205px;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prot {
+    display: none;
+}
+
+
+/* daqui para cima são alterações padroes de header e footer*/
+.Area_items{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+}
+.items_perfil{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    
+    
+}
+.alinhar_texto{
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;  
+    font-size: 20px;  
+    font-family: 'Roboto', sans-serif;
+
+}
+.items_perfil1{
+    display: flex;
+}
+.items_perfil1 img{
+    width: 50px;
+    height: 50px;
+}
+    
+.items_perfil1 a{
+    margin: auto;
+}
+.titulo_carrinho{
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+}
+.fechar_carrinho{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.carrinho_ajuste{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+
+    
+   
+}
+.carrinho_ajuste p{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    display: flex;
+    align-items: center;
+}
+.borda_carrinho{
+    width: 1200px;
+    height: 303px;
+    border: #DAA520 2px solid;
+    border-radius: 15px;
+}
+.conteudo_dentro_img{
+    height: 305px;
+    display: flex;
+    align-items: center; 
+    margin: auto;   
+
+}
+.conteudo_dentro_img img{
+    
+    padding-left: 20px;
+}
+.txt_carr{
+    margin: 15px;
+    font-size: 15px;
+    }
+.protecao_car{
+    position: relative;
+    left: -5px;
+    font-family: 'Roboto', sans-serif;
+
+}   
+.contai_carr{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.txt_contc{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;  
+}
+.txt_c{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.Quantidade_carr{
+    width: 80px;
+}
+.container_carrin{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.txt_fim_carrin{
+    font-size: 40px;
+}
+.Btn_fim{
+    width: 150px;
+    
+}
