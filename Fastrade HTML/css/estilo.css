@@ -107,7 +107,7 @@
     background-position: right;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 298px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,23 +121,24 @@
 .frase_dicas{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 50px;
     padding: 8px;
 }
 .botao_dicas{
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
-    border: solid 1px;
+    border: solid 2px;
     border-radius: 9px;
     cursor: pointer;
     text-decoration: none;
-    margin-top:20px;
+    margin-top:5px;
     padding: 2px;
     align-items: center;
 }
 .img_frase{
     align-items: center;
+    width: 500px;
 }
 .oferte{
     font-family: 'Dosis', sans-serif;
@@ -157,7 +158,7 @@
 	margin-bottom: 50px;
 }
 .img_home{
-    margin-top: 50px;   
+    margin-top: 15px;   
 }
 .alimentos{
     margin: auto;
@@ -296,6 +297,12 @@
     color: #9B9595;
     padding-left: 30px;
     margin-top: 30px;
+}
+.comentario1{
+    font-family: 'Roboto', sans-serif;
+    color: #9B9595;
+    padding-left: 30px;
+    margin-top: 54px;
 }
 .adm{
     font-family: 'Dosis', sans-serif;
