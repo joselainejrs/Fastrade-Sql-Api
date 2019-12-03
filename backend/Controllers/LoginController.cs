@@ -48,8 +48,9 @@ namespace backend.Controllers {
                 new Claim (JwtRegisteredClaimNames.Jti, Guid.NewGuid ().ToString ()),
                 //Define uma Claim atribuindo o perfil do usuário pelo Tipo de usuario
                 new Claim (ClaimTypes.Role, userInfo.IdTipoUsuario.ToString ()),
-                new Claim ("Role", userInfo.IdTipoUsuario.ToString ())
-
+                new Claim ("Role", userInfo.IdTipoUsuario.ToString ()),
+                new Claim ("IdUsuario", userInfo.IdUsuario.ToString()),
+                new Claim ("IdEndereco", userInfo.IdEndereco.ToString())
             };
 
             // Configuramos nosso Token e seu tempo de vida
