@@ -18,6 +18,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
+//dotnet ef dbcontext scaffold "Server=DESKTOP-D4CE51M\SQLEXPRESS; Database=fastrade; User Id=sa; Password=132" Microsoft.EntityFrameworkCore.SqlServer -o Domains -d
+
 namespace backend
 {
     public class Startup

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Desktop\\FastradeSql\\BackUp\\backend\\backend.csproj": {}
+    "C:\\Users\\fic\\Desktop\\Fastrade-Sql-Api\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Desktop\\FastradeSql\\BackUp\\backend\\backend.csproj": {
+    "C:\\Users\\fic\\Desktop\\Fastrade-Sql-Api\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Desktop\\FastradeSql\\BackUp\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\Fastrade-Sql-Api\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\fic\\Desktop\\FastradeSql\\BackUp\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\fic\\Desktop\\Fastrade-Sql-Api\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Desktop\\FastradeSql\\BackUp\\backend\\obj\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\Fastrade-Sql-Api\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

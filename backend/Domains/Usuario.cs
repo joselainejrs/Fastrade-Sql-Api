@@ -35,8 +35,9 @@ namespace backend.Domains
         [StringLength(255)]
         public string Senha { get; set; }
         [Required]
+        [Column("Celular_Telefone")]
         [StringLength(255)]
-        public string Celular { get; set; }
+        public string CelularTelefone { get; set; }
         [Column("Foto_Url_Usuario", TypeName = "text")]
         public string FotoUrlUsuario { get; set; }
 

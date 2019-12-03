@@ -20,9 +20,7 @@ namespace backend.Domains
         public string Preco { get; set; }
         [Required]
         [Column("Foto_Url_Oferta", TypeName = "text")]
-
         public string FotoUrlOferta { get; set; }
-        [Required (ErrorMessage = "Insira Imagem")]
         [Column(TypeName = "date")]
         public DateTime? Validade { get; set; }
 

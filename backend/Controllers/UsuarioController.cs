@@ -78,7 +78,7 @@ namespace backend.Controllers {
 
                 usuario.Email = Request.Form["Email"];
                 usuario.Senha = Request.Form["Senha"];
-                usuario.Celular = Request.Form["Celular"];
+                usuario.CelularTelefone = Request.Form["Celular"];
 
                 await _Repositorio.Salvar (usuario);
 
@@ -139,7 +139,7 @@ namespace backend.Controllers {
                 usuario.CpfCnpj = Request.Form["CpfCnpj"];
                 usuario.Email = Request.Form["Email"];
                 usuario.Senha = Request.Form["Senha"];
-                usuario.Celular = Request.Form["Celular"];
+                usuario.CelularTelefone = Request.Form["Celular"];
                 usuario.FotoUrlUsuario = _Upload.Upload (arquivo, "Usuarios");
                 await _Repositorio.Alterar (usuario);
             } catch (DbUpdateConcurrencyException) {
